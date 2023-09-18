@@ -1,0 +1,12 @@
+.header .navbar-nav a {
+  margin-left: 25px;
+}
+
+.header .navbar-nav a:last-child {
+  background-color: rgb(1, 47, 44);
+  border: 2px solid rgb(172, 0, 0);
+  color: #fff;
+  padding: 10px 35px;
+  border-radius: 7px;
+  text-align: center;
+}
