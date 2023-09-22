@@ -6,12 +6,13 @@ import banner1 from "../../images/banner-one.jpg";
 import banner2 from "../../images/banner-two.jpg";
 import "./Services.css";
 import Service from "../Service/Service";
+import SectionHeading from "../SectionHeading/SectionHeading";
 
 const Services = () => {
   return (
     <section className="service-area mb-5">
       <Container>
-        <h3 className="text-center mb-4">My Services</h3>
+        <SectionHeading heading="My Services Heading" />
         <Row>
           <Service
             image={banner2}

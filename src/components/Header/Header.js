@@ -2,7 +2,8 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import "./Header.css";
-import Logo from "../../images/logo.png"
+import LogoImage from "../../images/logo.png";
+import Logo from "../Logo/Logo";
 
 const Header = () => {
   return (
@@ -10,7 +11,7 @@ const Header = () => {
       <Navbar bg="dark" variant="dark" expand="lg" className="py-3">
         <Container>
           <Navbar.Brand href="#home">
-            <img src={Logo} alt="" />
+            <Logo image={LogoImage} />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
